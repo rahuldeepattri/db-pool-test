@@ -1,0 +1,15 @@
+namespace db_test.db;
+
+context dbtest {
+};
+
+/*@@layout{"layoutInfo":{"x":-439,"y":-207.5}}*/
+entity TestTable {
+    key ID       : Integer;
+        TIME     : UTCTimestamp;
+        FIELD1   : String(1);
+        FIELD2   : String(16);
+        FIELD3   : String(4);
+        MEASURE1 : Integer;
+        MEASURE2 : Double;
+};
